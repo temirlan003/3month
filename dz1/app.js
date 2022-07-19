@@ -17,15 +17,16 @@ btnClick.addEventListener("click", () => {
 
   const moving = document.querySelector(".move")
 
-let num = 0;
+// let num = 0;
+//
+// const move = function() {
+//     num += 40
+//     moving.style.left = `${num}px`;
+//     if (num <50) {
+//         move();
+//     } else {
+//         num = 0;
+//     }
+// }
+// moving.addEventListener("click", move)
 
-const move = function() {
-    num += 40
-    moving.style.left = `${num}px`;
-    if (num <50) {
-        move();
-    } else {
-        num = 0;
-    }
-}
-moving.addEventListener("click", move)
